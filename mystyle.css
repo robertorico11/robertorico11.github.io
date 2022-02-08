@@ -1,0 +1,52 @@
+body {
+     background: no-repeat linear-gradient(250deg, #0066cc, #3399ff);
+     font-family: 'Montagu Slab', serif;
+     color: #ffffff;
+}
+
+div {
+    width: 800px;
+    height: 800px;
+    border: 500px;
+    margin-top:0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    padding: 1px;
+    text-align: center;
+    background: no-repeat linear-gradient(250deg, #0066cc, #30D5C8);
+}
+
+
+h1, h2, h3 {
+    color: #ffffff;
+    display: block;
+    font-family: 'Montagu Slab', serif;
+    margin: 0px;
+    font-weight: bold;
+}
+
+.dot {
+    height: 300px;
+    width: 300px;
+    border: 5px solid #000000;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.project {
+    display: inline-block;
+    margin: 10px;
+}
+
+button {
+  	border: none;
+    padding: 0.5rem 1.rem;
+  	border-radius: 5px;
+  	font-weight: 300;
+  	color: black;
+  	outline: none;
+  	transform: scale(0.98);
+  	transition: all 0.2s;
+}
